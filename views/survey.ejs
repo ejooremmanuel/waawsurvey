@@ -19,8 +19,8 @@
           </button>
         </div>
     </nav>
-    <div class="container-fluid contain w-50  mt-2">
-        <form action="/survey" method="post" class="w-100">
+    <div class="container-fluid register-1">
+        <form action="/survey" method="post">
             <div class="mb-3">
                 <label for="title" class="form-label">Title of Survey</label>
                 <input type="text" class="form-control" name="title" id="formGroupExampleInput" placeholder="Survey Title" required>
@@ -33,13 +33,15 @@
                 <label for="place" class="form-label">Place</label>
                 <input type="text" class="form-control" name="place" id="formGroupExampleInput2" placeholder="Place" required>
             </div>
-            <div class="mb-3">
-                <label for="start" class="form-label">Start Date</label>
-                <input type="Date" class="form-control" name="start" id="formGroupExampleInput2" placeholder="4/4/2000" required>
-            </div>
-            <div class="mb-3">
-                <label for="end" class="form-label">End Date</label>
-                <input type="Date" class="form-control" name="end" id="formGroupExampleInput2" placeholder="4/4/2000" required>
+            <div class="name">
+                <div class="mb-3">
+                    <label for="start" class="form-label">Start Date</label>
+                    <input type="Date" class="form-control" name="start" id="formGroupExampleInput2" placeholder="4/4/2000" required>
+                </div>
+                <div class="mb-3">
+                    <label for="end" class="form-label">End Date</label>
+                    <input type="Date" class="form-control" name="end" id="formGroupExampleInput2" placeholder="4/4/2000" required>
+                </div>
             </div>
             <div class="mb-3">
                 <label for="user" class="form-label">User ID</label>

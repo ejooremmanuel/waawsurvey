@@ -28,7 +28,12 @@ mongoose.connect('mongodb://localhost/surveyapp')
 
 //Endpoints
 
-app.route('/register')
+app.get('/', (req, res) => {
+    res.render('home');
+})
+
+app
+    .route('/register')
     .get((req, res) => {
 
         res.render('register');
@@ -53,7 +58,8 @@ app.route('/register')
     });
 
 
-app.route('/survey')
+app
+    .route('/survey')
     .get((req, res) => {
 
         res.render('survey');

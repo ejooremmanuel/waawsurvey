@@ -21,18 +21,17 @@
     </nav>
 
 
-    <div class="container-fluid w-50 register">
-        <h1>Welcome to waaw survey creation Platform.</h1>
-        <h1 class="hide"> Create surveys for different purposes.</h1>
-        <h3>Please fill out the form to get started.</h3>
-        <form action="/register" method="post">
-            <div class="mb-3">
-                <label for="firstname" class="form-label">First Name</label>
-                <input type="text" class="form-control" name="firstname" id="formGroupExampleInput" placeholder="First Name" required>
-            </div>
-            <div class="mb-3">
-                <label for="lastname" class="form-label">Last Name</label>
-                <input type="text" class="form-control" name="lastname" id="formGroupExampleInput2" placeholder="Last Name" required="required">
+    <div class="container-fluid register">
+        <form action="/register" method="post" class="">
+            <div class="name">
+                <div class="mb-3">
+                    <label for="firstname" class="form-label">First Name</label>
+                    <input type="text" class="form-control" name="firstname" id="formGroupExampleInput" placeholder="Type first name here..." required>
+                </div>
+                <div class="mb-3">
+                    <label for="lastname" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" name="lastname" id="formGroupExampleInput2" placeholder="Type last name here..." required="required">
+                </div>
             </div>
             <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
@@ -40,9 +39,9 @@
             </div>
             <div class="mb-3">
                 <label for="phone" class="form-label">Phone Number</label>
-                <input type="number" class="form-control" name="phone" id="formGroupExampleInput2" placeholder="08000000001" required>
+                <input type="number" class="form-control" name="phone" id="formGroupExampleInput2" placeholder="+2348000000001" required>
             </div>
-            <button type="submit" class="btn btn-primary btn-lg">Get started</button>
+            <button type="submit" class="btn btn-primary btn-lg">Continue</button>
         </form>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
